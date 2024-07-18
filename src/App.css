@@ -1,6 +1,7 @@
 .contenant {
   width: 100vw;
   height: 100vh;
+  background-color: black;
 }
 
 .game {
@@ -12,4 +13,21 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.menu {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  left: 20px;
+}
+
+.menu p {
+  /* Ajoutez ici vos styles pour les balises <p> */
+  color: gray; /* Exemple de style: texte en bleu */
+  font-size: 16px; /* Exemple de style: taille de police */
+  margin: 10px 0; /* Exemple de style: marges */
 }
